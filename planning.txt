@@ -1,0 +1,39 @@
+1. Style page to look like card table
+
+2. Hard code cards
+    get sizing
+
+3. Create event listener for "Deal" button that deals 1 card per player twice.
+   First to player then to dealer. Append this to the dealer hand and player hand elements
+
+4. Create an event listener button for the hit button that deals 1 more card to palyer and dealer.
+   
+5. Create deck of cards by using an array of objects. Each object will be a card. Each card
+   should have a rank and suit.
+
+6. Use a function to generate a deck of 52 cards. Function should retrun a new array w/ 52
+   objects. 
+
+7. Create 2 arrays that rep the player and dealer hands. Adjust code to remove a card from the 
+   deck when deal button is clicked adn have that card placed into the player hand array.
+
+8. Add images to cards. 
+
+9. Use function getCardImage that takes card object and retruns correct image element. 
+
+10. Write a function that loops over the dealer and player hand arrays and appends new card
+    image to correct elements. (render hands)
+
+11. Write a function (calculate points) that takes in array fo card objects and returns the points
+    for that hand.
+
+12. After dealing any cards dislplay poins for dealer and player (render function)
+
+15. Check for busts after each card is delt-- checking if player hand is over 21 points. If so dislplay
+    busted msg. 
+
+16. Create event listenr button for "stand" that deals cards to dealer only until he reaches 17 points or more.
+
+17. Reset game  
+
+18. BONUS! Add bets or keep track of W and listener.
