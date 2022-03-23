@@ -10,7 +10,7 @@ body {
     justify-content: center;
     padding: 10%;
 }
-/* dealere and player boxes */
+/* dealer and player boxes */
 .box1 {
     background-color:rgba(182, 132, 132, 0.849);
     width: 100%;
@@ -20,6 +20,15 @@ body {
     padding:50px; 
     border-color: rgb(173, 181, 189);
     
+}
+
+#dealerHand {
+    
+}
+img {
+    max-width: 15%;
+    height: 100px;
+    /* display: none; */
 }
 .button {
     display: inline-block;
